@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: java-app
-  namespace: java-demo-namespace
+  namespace: java-demo-vidhun
 spec:
   replicas: 2
   selector:
